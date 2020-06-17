@@ -2,8 +2,8 @@
 
 Running DayTrader7 application on a newer WLP & Java versions.
 Source:
-https://www.ibm.com/support/knowledgecenter/linuxonibm/liaag/wascrypt/l0wscry00_daytrader.htm
-https://github.com/WASdev/sample.daytrader7
+- https://www.ibm.com/support/knowledgecenter/linuxonibm/liaag/wascrypt/l0wscry00_daytrader.htm
+- https://github.com/WASdev/sample.daytrader7
 
 The DayTrader7 application (see the above github repo) is meant for old WLP running on Java 7. 
 So if you are using WLP 20.0.0.6 on Oracle Java 8, you might encounter some issues while deploying this application.
