@@ -9,7 +9,7 @@ Source:
 The DayTrader7 application (see the above github repo) is meant for old WLP running on Java 7. 
 So if you are using WLP 20.0.0.6 (latest version as of today, 17 June 2020) on Oracle Java 8, you might encounter some issues while deploying this application.
 
-Here is the step-by-step guide on how to deploy the application:
+Here is the step-by-step guide on how to deploy and setup the application on WLP 20.0.0.6 on Oracle Java 8.
 
 1) DayTrader7 application requires below features where some are not by default available on my WLP 20.0.0.6 on Oracle Java 8.
 
