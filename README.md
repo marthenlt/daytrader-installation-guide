@@ -1,4 +1,4 @@
-# Deployment &amp; setup guide for DayTrader7 application for WLP (WebSphere Liberty Profile) 20.0.0.6 for Java 8
+# Deployment &amp; setup guide for DayTrader7 application for WLP (WebSphere Liberty Profile) 20.0.0.6 on Oracle Java 8
 
 Running DayTrader7 application on a newer WLP & Java versions.
 
