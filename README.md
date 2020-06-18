@@ -7,10 +7,11 @@ Source:
 - https://github.com/WASdev/sample.daytrader7
 
 The DayTrader7 application (see the above github repo) is meant for old WLP running on Java 7. 
-So if you are using WLP 20.0.0.6 on Oracle Java 8, you might encounter some issues while deploying this application.
+So if you are using WLP 20.0.0.6 (latest version as of today, 17 June 2020) on Oracle Java 8, you might encounter some issues while deploying this application.
 
 Here is the step-by-step guide on how to deploy the application:
-1) DayTrader7 application requires below features where some are not by default available on my WLP 20.0.0.6 on Java 8.
+
+1) DayTrader7 application requires below features where some are not by default available on my WLP 20.0.0.6 on Oracle Java 8.
 
         <feature>ejb-3.2</feature>
         <feature>servlet-3.1</feature>
@@ -53,7 +54,7 @@ Here is the step-by-step guide on how to deploy the application:
         cp daytrader-ee7/target/daytrader-ee7-1.0-SNAPSHOT.ear daytrader-ee7-wlpcfg/servers/daytrader7Sample/apps/daytrader-ee7.ear
 
 
-3) Also the Derby library (derby-10.10.1.1.jar) inside the server.xml configuration for JNDI datasource is not available.
+3) Also, Derby JAR library (derby-10.10.1.1.jar) inside the server.xml configuration for JNDI datasource is not available.
    So, I have to manually copy it there since I found it available in my MVN local repository.
    Here's the command I used to copy Derby JAR library:
    
