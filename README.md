@@ -1,6 +1,7 @@
 # Deployment &amp; setup guide for DayTrader7 application for WLP (WebSphere Liberty Profile) 20.0.0.6 for Java 8
 
 Running DayTrader7 application on a newer WLP & Java versions.
+
 Source:
 - https://www.ibm.com/support/knowledgecenter/linuxonibm/liaag/wascrypt/l0wscry00_daytrader.htm
 - https://github.com/WASdev/sample.daytrader7
