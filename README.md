@@ -64,7 +64,7 @@ Here is the step-by-step guide on how to deploy the application:
 4) Start the application using:
 
         export WLP_USER_DIR=<YOUR_DAY_TRADER/sample.daytrader7/daytrader-ee7-wlpcfg
-        <YOUR_WLP_INSTALLATION_DIRECTORY>/bin/server start daytrader7Sample
+        <WLP_DIR>/bin/server start daytrader7Sample
 
    Restart the DayTrader application. It should started successfully now.
 
